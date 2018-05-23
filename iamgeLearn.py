@@ -8,6 +8,8 @@ class ImageLearn:
 	def __init__(self):
 		# self.zoomImage()
 		# self.testAssert()
+
+		'''对图片进行格式转换'''
 		self.imageMethod()
 	def zoomImage(self):
 		im = Image.open('1.jpg')
